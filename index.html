@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift for my Poke <3</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="container">
+        <h1>A Gift for my Heart <3</h1>
+
+         <!-- Dedicated Paragraph for Her -->
+        <div class="dedication-box">
+            <p>
+                To my Pasandida Aurat, <br>
+                You have brought so much light, love, and happiness into my life. Every moment with you is a treasure,
+                and I am endlessly grateful for your presence. This little gift is a reflection of the love I feel for you,
+                and I hope it brings a smile to your face, just like you bring
+                joy to my heart every day. <br> Bas is baat ka dukh hai ki,
+                finally god introduced a fine girl in my life and now it's
+                gonna be a long distance relationship...😭 <br>
+                I want you to be mine forever, just don't leave me, alright. I
+                don't know how I fell in this much love for you. <br> This is
+                just an infinitely small portion of my love, hope you love it.
+                And remember, foster it forever.
+                <br><br>
+                With all my love, <br> Your Pasandida Mard
+            </p>
+        </div>
+
+
+        <!-- Love Poem Generator -->
+        <div class="section">
+            <h2>Love Poem Generator</h2>
+            <button onclick="generatePoem()">Generate Poem</button>
+            <div id="poem-output"></div>
+        </div>
+
+        <!-- Music Player -->
+        <div class="section">
+            <h2>[Your Private Spotify]</h2>
+            <select id="song-select" class="songs-dropdown">
+                <option value="Samjho Na.mp3">Samjho Na</option>
+                <option value="Lover.mp3">Lover - Tailor Swift</option>
+                <option value="There Is a Light That Never Goes Out.mp3">There
+                Is a Light That Never Goes Out</option>
+                <option value="Perfect - Ed Sheeran.mp3">Perfect - Ed Sheeran</option>
+                <option value="I Wanna Be Yours.mp3">I Wanna Be Yours</option>
+                <option value="Best Friend.mp3">I Still Wanna be your Favorite
+                boy</option>
+                <option value="Something about you.mp3">You look just like a
+                dream</option>
+                <option value="We fell in love in october.mp3">We Fell in Love
+                in October</option>
+            </select>
+            
+            <button onclick="playSong()">Play Song</button>
+            <audio id="audio-player" controls>
+                <source id="audio-source" src="" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <!-- Love Message -->
+            <p class="handwriting" style="margin-top: 10px;">
+            "My love for you will never end"
+        </p>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
